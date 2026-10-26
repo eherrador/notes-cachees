@@ -1,0 +1,19 @@
+:root{--p:#F2EFE8;--i:#141414;--r:#C8361F;--g:#6E7377}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--p);color:var(--i);font:17px/1.55 -apple-system,"Segoe UI",Inter,Roboto,sans-serif}
+main,header,footer{max-width:640px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:18px;font:12px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase}
+header nav a{color:var(--g);margin-left:12px}header nav a[aria-current]{color:var(--r)}
+h1,h2{font-family:"Iowan Old Style","Charter",Georgia,serif;font-weight:600;line-height:1.1;letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,9vw,3.4rem);margin:48px 0 16px}
+h2{font-size:1.6rem;margin:0 0 12px}
+section{border-top:1px solid var(--i);padding:28px 0}
+.tag{font:12px ui-monospace,Menlo,monospace;color:var(--r);text-transform:uppercase;letter-spacing:.1em}
+.cta{display:block;text-align:center;background:var(--i);color:var(--p);text-decoration:none;padding:16px;font-weight:600;margin:24px 0;border-bottom:4px solid var(--r)}
+ol{padding-left:1.2em}li{margin:6px 0}
+.pend{border:2px dashed var(--r);color:var(--r);padding:16px;font:14px ui-monospace,monospace}
+footer{color:var(--g);font-size:14px;padding:24px 20px 40px;border-top:1px solid var(--g)}footer a{color:var(--i)}
+.priv p{white-space:pre-line}
+.cta2{display:inline-block;color:var(--i);margin:4px 0 8px}
+.cta{background:var(--r);color:var(--p);border-bottom:0}
+dl dt{font-weight:600;margin-top:12px}dl dd{margin:0}
