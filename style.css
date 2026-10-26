@@ -17,3 +17,4 @@ footer{color:var(--g);font-size:14px;padding:24px 20px 40px;border-top:1px solid
 .cta2{display:inline-block;color:var(--i);margin:4px 0 8px}
 .cta{background:var(--r);color:var(--p);border-bottom:0}
 dl dt{font-weight:600;margin-top:12px}dl dd{margin:0}
+.brand{display:flex;align-items:center;gap:10px}.brand img{display:block;mix-blend-mode:multiply}
